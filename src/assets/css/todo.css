@@ -1,0 +1,132 @@
+body {
+	display: block;
+	background: linear-gradient(to right,lightblue,purple);
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+	height: 600px;
+	margin:  0 auto;
+	margin-top: 25px;
+	box-shadow: 0 0 15px 1px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	overflow-y: scroll;
+	background: url(https://im0-tub-com.yandex.net/i?id=9081d3d0578fd8cb19588256ffc45fe2&n=13);
+}
+
+form {
+	margin-left: 260px;
+}
+
+form input:first-child {
+	flex-grow: 1;
+	width: 930px;
+}
+
+form input {
+	padding: 5px;
+	font-size: 20px;
+}
+form button{
+	padding: 5px;
+	font-size: 20px;
+	color: blue;
+	width: 70px;
+}
+.log{
+	margin-left: auto;
+	margin-top: 30px;
+	margin-right: 30px;
+	border: solid black 1px;
+	background-color: aqua;
+
+	width: 100px;
+	height: 40px;
+}
+
+.todosList {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right:100px;
+
+}
+
+.todosList li {
+	display: flex;
+	border-radius: 15px;
+	justify-content: space-between;
+	padding: 10px 25px;
+	font-size: 25px;
+	margin-bottom: 8px;
+	border:  1px solid black;
+	font-weight: bold;
+	background-color: aqua;
+
+}
+.todosList li:first-child {
+	margin-top: 20px;
+}
+
+.todosList li span {
+	margin-right: 25px;
+}
+
+li button {
+}
+.aboo{
+	font-size: 15px;
+	margin-left: 15px;
+
+
+}
+.abo{
+	font-size: 15px;
+	color: white;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+
+.main{
+	width: 100%;
+	margin: 0;
+	height: 150px;
+	background-color: purple;
+	display: flex;
+}
+
+
+.userIcon{
+	border: 1px solid black;
+	width: 50px;
+	height: 50px;
+	margin: 0;
+	margin-left: 15px;
+	border-radius: 50%;
+	text-align: center;
+	background: lightblue;
+	margin-top: 15px;
+}
+.username{
+	width: 200px;
+	height: 50px;
+	margin: 0;
+	margin-top: 15px;
+	margin-left: 10px;
+
+}
+.div2{
+	
+	display: flex;
+	flex-direction: column;
+}
+.div2 {
+
+}
+.main img{
+	margin-left: 100px;
+}
